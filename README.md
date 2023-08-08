@@ -6,7 +6,7 @@ An AI assistant powered by OpenAI ChatGPT4
 - Talk to `F.R.I.D.A.Y.` and get verbal responses
 ### Known Bugs
 
-- [ ] Calling ai whisper models on an M1 or M2 Mac CPU outputs an error every
+- [ ] Calling ai whisper models on an M1 or M2 Mac CPU outputs an error every time
 
 ### Next Patch
 - [ ] Fully offline assistant
