@@ -16,7 +16,9 @@ An AI assistant powered by OpenAI ChatGPT4
 
 # Installation
 First install Anaconda and run as `administrator`
-```https://www.anaconda.com/download```
+```
+https://www.anaconda.com/download
+```
 ## Configuration
 > To use Friday you need to app your OpenAI API Key
 `openai.api_key = "KEY_HERE"`
