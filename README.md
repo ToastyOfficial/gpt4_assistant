@@ -1,7 +1,7 @@
 # OpenAI Assistant
 ![ai](https://i.imgur.com/xwNwqD9.png)<br><br>
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)  [![Latest release](https://badgen.net/github/release/ToastyOfficial/OpenAI_GPT4_Assistant)](https://github.com/ToastyOfficial/OpenAI_GPT4_Assistant/releases) [![GitHub latest commit](https://badgen.net/github/last-commit/ToastyOfficial/OpenAI_GPT4_Assistant)](https://GitHub.com/ToastyOfficial/OpenAI_GPT4_Assistant/commit/) [![GitHub stars](https://badgen.net/github/stars/ToastyOfficial/OpenAI_GPT4_Assistant)](https://GitHub.com/ToastyOfficial/OpenAI_GPT4_Assistant/stargazers/)<br>
-An AI assistant powered by OpenAI ChatGPT4 
+An AI assistant powered by OpenAI ChatGPT4. 
 - Type to `F.R.I.D.A.Y.` and get typed responses
 - Talk to `F.R.I.D.A.Y.` and get verbal responses
 ## Configuration
