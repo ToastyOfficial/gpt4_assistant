@@ -19,7 +19,7 @@ First install [Anaconda](https://www.anaconda.com/download) and run as `administ
 
 Next install [GPT4All](https://gpt4all.io/) desktop app
 ## Configuration
-> To use Friday you need to app your OpenAI API Key
+> To use Friday you need to app your OpenAI API Key<br>
 `openai.api_key = "KEY_HERE"`
 The `duration` variable can be raised for more time to respond to the AI. Default is 2 seconds
 ```py
