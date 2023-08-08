@@ -15,7 +15,7 @@ An AI assistant powered by OpenAI ChatGPT4
 - SoundFile Plugin
 
 # Installation
-First install Anaconda and run as `administrator`
+First install [Anaconda](https://www.anaconda.com/download) and run as `administrator`
 ```
 https://www.anaconda.com/download
 ```
