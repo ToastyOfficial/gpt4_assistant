@@ -1,6 +1,6 @@
 # OpenAI Assistant
 ![ai](https://i.imgur.com/xwNwqD9.png)<br><br>
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) ![Maintainer](https://img.shields.io/badge/maintainer-Toasty-blue)  [![Latest release](https://badgen.net/github/release/ToastyOfficial/gpt4_assistant)](https://github.com/ToastyOfficial/gpt4_assistant/releases) [![GitHub release](https://img.shields.io/github/release/ToastyOfficial/gpt4_assistant.svg)](https://GitHub.com/ToastyOfficial/gpt4_assistant/releases/) [![GitHub latest commit](https://badgen.net/github/last-commit/ToastyOfficial/gpt4_assistant)](https://GitHub.com/ToastyOfficial/gpt4_assistant/commit/) [![GitHub stars](https://badgen.net/github/stars/ToastyOfficial/gpt4_assistant)](https://GitHub.com/ToastyOfficial/gpt4_assistant/stargazers/) <br>
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) ![Maintainer](https://img.shields.io/badge/maintainer-Toasty-blue)  [![Latest release](https://badgen.net/github/release/ToastyOfficial/gpt4_assistant)](https://github.com/ToastyOfficial/gpt4_assistant/releases) [![GitHub latest commit](https://badgen.net/github/last-commit/ToastyOfficial/gpt4_assistant)](https://GitHub.com/ToastyOfficial/gpt4_assistant/commit/) [![GitHub stars](https://badgen.net/github/stars/ToastyOfficial/gpt4_assistant)](https://GitHub.com/ToastyOfficial/gpt4_assistant/stargazers/) <br>
 An AI assistant powered by OpenAI ChatGPT4
 - Type to `F.R.I.D.A.Y.` and get typed responses
 - Talk to `F.R.I.D.A.Y.` and get verbal responses
