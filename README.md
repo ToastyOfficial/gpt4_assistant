@@ -4,6 +4,18 @@
 An AI assistant powered by OpenAI ChatGPT4
 - Type to `F.R.I.D.A.Y.` and get typed responses
 - Talk to `F.R.I.D.A.Y.` and get verbal responses
+
+## Dependencies
+- Anaconda
+- GPT4All Plugin
+- Whisper Plugin
+- Speech Recognition Plugin
+- Play Sound Plugin
+- PyAudio Plugin
+- SoundFile Plugin
+
+# Installation
+Quick walkthrough on installing your new assistant
 ## Configuration
 > To use Friday you need to app your OpenAI API Key
 `openai.api_key = "KEY_HERE"`
