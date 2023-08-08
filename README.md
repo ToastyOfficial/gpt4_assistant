@@ -1,23 +1,60 @@
 # OpenAI Assistant
 ![ai](https://i.imgur.com/xwNwqD9.png)<br><br>
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)  [![Latest release](https://badgen.net/github/release/ToastyOfficial/OpenAI_GPT4_Assistant)](https://github.com/ToastyOfficial/OpenAI_GPT4_Assistant/releases) [![GitHub latest commit](https://badgen.net/github/last-commit/ToastyOfficial/OpenAI_GPT4_Assistant)](https://GitHub.com/ToastyOfficial/OpenAI_GPT4_Assistant/commit/) [![GitHub stars](https://badgen.net/github/stars/ToastyOfficial/OpenAI_GPT4_Assistant)](https://GitHub.com/ToastyOfficial/OpenAI_GPT4_Assistant/stargazers/)<br>
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) ![Maintainer](https://img.shields.io/badge/maintainer-Toasty-blue)  [![Latest release](https://badgen.net/github/release/ToastyOfficial/gpt4_assistant)](https://github.com/ToastyOfficial/gpt4_assistant/releases) [![GitHub release](https://img.shields.io/github/release/ToastyOfficial/gpt4_assistant.svg)](https://GitHub.com/ToastyOfficial/gpt4_assistant/releases/) [![GitHub latest commit](https://badgen.net/github/last-commit/ToastyOfficial/gpt4_assistant)](https://GitHub.com/ToastyOfficial/gpt4_assistant/commit/) [![GitHub stars](https://badgen.net/github/stars/ToastyOfficial/gpt4_assistant)](https://GitHub.com/ToastyOfficial/gpt4_assistant/stargazers/) <br>
 An AI assistant powered by OpenAI ChatGPT4
 - Type to `F.R.I.D.A.Y.` and get typed responses
 - Talk to `F.R.I.D.A.Y.` and get verbal responses
+## Installation
+First, clone the the repo to your machine.<br>
+Next, install [Anaconda](https://www.anaconda.com/download) and run as `administrator` to install dependencies.<br>
+Then, install [GPT4All](https://gpt4all.io/) desktop app & dwonload `GPT4All Falcon` wait until done to continue.<br><br>
 
 ## Dependencies
-- Anaconda
-- GPT4All Plugin
-- Whisper Plugin
-- Speech Recognition Plugin
-- Play Sound Plugin
-- PyAudio Plugin
-- SoundFile Plugin
+Install the GPT4All Library:
+```
+python -m pip install gpt4all
+```
 
-# Installation
-First install [Anaconda](https://www.anaconda.com/download) and run as `administrator`
+Install the OpenAI Whisper Library:
+```
+python -m pip install openai-whisper
+```
 
-Next install [GPT4All](https://gpt4all.io/) desktop app
+Install the Speech Recognition Library:
+```
+python -m pip install SpeechRecognition
+```
+
+Install the PlaySound Library
+```
+python -m pip install playsound
+```
+
+Install the `PyAudio` Library
+```
+python -m pip install PyAudio
+```
+
+Install the Sound File Library
+```
+python -m pip install soundfile
+```
+
+Install ffmpeg for Windows using Chocolatey
+```
+choco install ffmpeg
+```
+
+For MacOS Users
+```
+brew install portaudio
+```
+
+For Windows/Linux Users
+```
+python -m pip install pyttsx3
+```
+
 ## Configuration
 > To use Friday you need to app your OpenAI API Key `openai.api_key = "KEY_HERE"`
 
