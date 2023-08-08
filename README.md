@@ -15,7 +15,8 @@ An AI assistant powered by OpenAI ChatGPT4
 - SoundFile Plugin
 
 # Installation
-Quick walkthrough on installing your new assistant
+First install Anaconda and run as `administrator`
+```https://www.anaconda.com/download```
 ## Configuration
 > To use Friday you need to app your OpenAI API Key
 `openai.api_key = "KEY_HERE"`
