@@ -11,7 +11,7 @@ import time
 import os
 
 wake_word = 'friday'
-model = GPT4All("/Users/Toasty/AppData/Local/nomic.ai/GPT4All/ggml-model-gpt4all-falcon-q4_0.bin")# this is mine. Won't work
+model = GPT4All("/Users/Toasty/AppData/Local/nomic.ai/GPT4All/ggml-model-gpt4all-falcon-q4_0.bin", allow_download=False)# this is mine. Won't work
 # Windows /Users/YourUser/AppData/Local/nomic.ai/GPT4All
 # MacOS "Users/Toasty/Library/Application Support/nomic.ai/GPT4All"
 r = sr.Recognizer()
