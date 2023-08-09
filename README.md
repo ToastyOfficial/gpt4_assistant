@@ -13,7 +13,7 @@ An AI assistant powered by OpenAI ChatGPT4<br>
 - [ ] Fully offline assistant
 - [ ] Basic action functions _(windows)_
 - [ ] Linux & MacOS documentation
-- [ ] Improved stabilty & permormance
+- [X] Improved stabilty & permormance
 
 ## Installation
 
