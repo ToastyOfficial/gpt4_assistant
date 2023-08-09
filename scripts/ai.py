@@ -19,6 +19,7 @@ tiny_model = whisper.load_model('tiny')
 base_model = whisper.load_model('base')
 listening_for_wake_word = True
 source = sr.Microphone()
+warnings.filterwarnings("ignore", category=UserWarning, module='whisper.transcribe', lineno=114)
 
 if sys.platform != 'darwin':
     import pyttsx3
@@ -76,14 +77,8 @@ def start_listening():
     with source as s:
         r.adjust_for_ambient_noise(s, duration=2)
         print('\nSay', wake_word, 'to get started. \n')
-        
-        global listening_for_wake_word
+        r.listen_in_background(source, callback) # <-- New methods runs service in background
         while True: 
-            audio = r.listen(s) # <-- working on other method
-            if listening_for_wake_word:
-                listen_for_wake_word(audio)
-            else:
-                prompt_gpt(audio)
             time.sleep(1)
 
 if __name__ == '__main__':
