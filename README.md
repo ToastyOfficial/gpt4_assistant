@@ -1,7 +1,8 @@
 # OpenAI Assistant
 ![ai](https://i.imgur.com/xwNwqD9.png)<br><br>
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/ToastyOfficial/gpt4_assistant?label=Version"> [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)  [![GitHub latest commit](https://badgen.net/github/last-commit/ToastyOfficial/gpt4_assistant)](https://GitHub.com/ToastyOfficial/gpt4_assistant/commit/) [![GitHub stars](https://badgen.net/github/stars/ToastyOfficial/gpt4_assistant)](https://GitHub.com/ToastyOfficial/gpt4_assistant/stargazers/) <br>
-An AI assistant powered by OpenAI ChatGPT4
+An AI assistant powered by OpenAI ChatGPT4<br>
+> *Note that this branch may not be stable please use releases*<br>
 - Type to `F.R.I.D.A.Y.` and get typed responses
 - Talk to `F.R.I.D.A.Y.` and get verbal responses
 ### Known Bugs
