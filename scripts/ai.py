@@ -19,7 +19,7 @@ tiny_model = whisper.load_model('tiny')
 base_model = whisper.load_model('base')
 listening_for_wake_word = True
 source = sr.Microphone()
-warnings.filterwarnings("ignore", category=UserWarning, module='whisper.transcribe', lineno=114)
+warnings.filterwarnings("ignore", category=UserWarning, module='whisper.transcribe', lineno=114) # supress our warnings like our feelings :/
 
 if sys.platform != 'darwin':
     import pyttsx3
