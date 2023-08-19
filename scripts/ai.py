@@ -11,7 +11,11 @@ import time
 import os
 
 wake_word = 'friday'
+<<<<<<< Updated upstream
 model = GPT4All("/Users/username/AppData/Local/nomic.ai/GPT4All/ggml-model-gpt4all-falcon-q4_0.bin", allow_download=False)# this is mine. Won't work
+=======
+model = GPT4All("/Users/Toasty/AppData/Local/nomic.ai/GPT4All/wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin", allow_download=False)# this is mine. Won't work
+>>>>>>> Stashed changes
 # Windows /Users/YourUser/AppData/Local/nomic.ai/GPT4All
 # MacOS "Users/Toasty/Library/Application Support/nomic.ai/GPT4All"
 r = sr.Recognizer()
@@ -77,8 +81,14 @@ def start_listening():
     with source as s:
         r.adjust_for_ambient_noise(s, duration=2)
         print('\nSay', wake_word, 'to get started. \n')
-        r.listen_in_background(source, callback) # <-- New methods runs service in background
+        
+        global listening_for_wake_word
         while True: 
+            audio = r.listen(s) # <-- working on other method
+            if listening_for_wake_word:
+                listen_for_wake_word(audio)
+            else:
+                prompt_gpt(audio)
             time.sleep(1)
 
 if __name__ == '__main__':
