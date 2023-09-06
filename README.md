@@ -10,7 +10,7 @@ An AI assistant powered by OpenAI ChatGPT4<br>
 - [X] Calling ai whisper models on an M1 or M2 Mac CPU outputs an error every time
 
 ### Next Patch
-- [ ] Fully offline assistant
+- [X] Fully offline assistant
 - [ ] Basic action functions _(windows)_
 - [ ] Linux & MacOS documentation
 - [X] Improved stabilty & permormance
