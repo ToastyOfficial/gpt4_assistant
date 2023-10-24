@@ -72,4 +72,4 @@ def start_listening():
         print('\nSay', wake_word, 'to get started. \n')
 ```
 Got an issue? Submit a pull request or submit an issue!<br>
-> **Developed by Toasty | 614 eShop x Dawnstar**
+> **Developed by Toasty | Facekick x Dawnstar**
