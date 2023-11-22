@@ -12,7 +12,7 @@ import os
 
 wake_word = 'friday'
 <<<<<<< Updated upstream
-model = GPT4All("/Users/username/AppData/Local/nomic.ai/GPT4All/ggml-model-gpt4all-falcon-q4_0.bin", allow_download=False)# this is mine. Won't work
+model = GPT4All("/Users/Toasty/AppData/Local/nomic.ai/GPT4All/ggml-model-gpt4all-falcon-q4_0.bin", allow_download=False)# this is mine. Won't work
 =======
 model = GPT4All("/Users/Toasty/AppData/Local/nomic.ai/GPT4All/wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin", allow_download=False)# this is mine. Won't work
 >>>>>>> Stashed changes
